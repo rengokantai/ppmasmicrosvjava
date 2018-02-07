@@ -17,5 +17,8 @@ RestController - Resource - returns domain object
 @RequestParam(value="base") String a
 ```
 
-Spring REST: App Execution
+##### Spring REST: App Execution
 @SpringBootApplication
+- @EnableAutoConfiguration: Spring Boot is to start adding beans based on classpath settings, other beans, and various property setting.
+- @EnableWebMvc: Makes Web application by activating key behaviors such as setting up a DispatcherServlet
+- @ComponentScan:Scan for other components, configurations, and services in the given package
